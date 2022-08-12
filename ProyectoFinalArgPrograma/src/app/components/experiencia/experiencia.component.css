@@ -1,0 +1,15 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #D9D61C;
+}
+h2, h3{
+    display: inline;
+}
+h1, h2, h3, p{
+    color: black;
+}
+ul{
+    list-style: none;
+}

@@ -10,10 +10,8 @@ div{
         position: absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 5px 5px 5px #D77A7A;
-        left: 3%;
-        top: 600px;
-        border: 3px solid #D77A7A;
+        left: 2%;
+        top: 450px
     }
 }
 @media (max-width: 575px){
@@ -21,10 +19,8 @@ div{
         position: absolute;
         width: 30%;
         border-radius: 100%;
-        box-shadow: 5px 5px 5px #D77A7A;
-        left: 33%;
-        top: 630px;
-        border: 3px solid #D77A7A;
+        left: 35%;
+        top: 470px;
     }
 }
 #nombre{
