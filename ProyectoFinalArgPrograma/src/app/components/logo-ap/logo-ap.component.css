@@ -25,4 +25,11 @@ img{
         margin: 0.2em;
     }
 }
-
+.btn{
+    text-decoration: none;
+    color: #B40404;
+    padding: 10px 40px;
+    border-radius: 35px;
+    background-color: #D9D61C;
+    align-self: baseline;
+}
