@@ -23,11 +23,20 @@ div{
         top: 950px;
     }
 }
-#nombre{
-    font-weight: bold;
-    margin-top: 20%;
-}
-span, p {
+span, 
+p {
     color: #F1F1D4;
     font-size: 20px;
+    margin: 8px;
+}
+h1,
+h2{
+    color: #F1F1D4;
+    font-size: 30px;
+    margin: 8px;
+}
+#nombre{
+    font-weight: bold;
+    margin: 16px;
+    font-size: 30px;
 }

@@ -2,12 +2,16 @@
     padding: 20px;
 }
 div{
-    background-color: #D9D61C;
+    background-color: #eae880;
 }
-h2, h3{
+h3, 
+h4{
     display: inline;
 }
-h1, h2, h3, p{
+h2, 
+h3, 
+h4,
+p{
     color: black;
 }
 ul{
