@@ -1,6 +1,6 @@
 .row{
     padding: 20px;
-    background-color: #d9d61c;
+    background-color: #C02F2F;
 }
 .contenedor{
     width: auto;
@@ -13,6 +13,9 @@
 .img-proyecto{
     box-shadow: 10px 10px 30px #000;
 }
-h1, p{
+h2, 
+h3,
+p{
     color: #000;
+    margin: 16px 8px 8px 8px;
 }

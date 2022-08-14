@@ -1,11 +1,14 @@
 .row{
-    background-color: #b40404;
+    background-color: #d9d61c;
 }
 footer{
-    color: #F1F1D4;
+    color: #b40404;
     font-size: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 20px;
+    padding: 12px;
+}
+address{
+    margin: 0;
 }
