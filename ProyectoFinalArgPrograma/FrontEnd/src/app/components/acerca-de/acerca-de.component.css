@@ -20,11 +20,11 @@ div{
         width: 30%;
         border-radius: 100%;
         left: 35%;
-        top: 950px;
+        top: 590px;
     }
 }
 span, 
-p {
+p{
     color: #F1F1D4;
     font-size: 20px;
     margin: 8px;
@@ -38,5 +38,6 @@ h2{
 #nombre{
     font-weight: bold;
     margin: 16px;
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 20%;
 }
