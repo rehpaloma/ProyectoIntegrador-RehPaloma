@@ -1,13 +1,14 @@
 .row{
-    background-color: #d9d61c;
+    background-color: #b40404;
 }
 footer{
-    color: #b40404;
+    color: #F1F1D4;
     font-size: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 12px;
+    font-family: 'B612', sans-serif;
 }
 address{
     margin: 0;
