@@ -15,7 +15,8 @@
             <div>
                 <a href=""><img src="../../../assets/linkedin.png" alt=""></a>
                 <a href="https://github.com/rehpaloma" target="_blank"><img src="../../../assets/github.png" alt=""></a>
-                <input type="button" class="btn" value="Log In" (click)="login()"/>
+                <input type="button" class="btn" value="Log In" (click)="login()" *ngIf="!isLogged"/>
+                <input type="button" class="btn" value="Log Out" (click)="onLogOut()" *ngIf="isLogged"/>
             </div>
         </div>
     </div>
