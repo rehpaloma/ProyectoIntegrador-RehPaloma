@@ -4,16 +4,21 @@
 div{
     background-color: #C02F2F;
 }
-h3, 
-h4{
-    display: inline;
-}
 h2, 
 h3, 
-h4, 
-p{
+h5{
     color: black;
 }
-ul{
-    list-style: none;
+h3{
+    font-weight: bold;
+}
+.botonAexp,
+.btn{
+    text-decoration: none;
+    color: #C02F2F;
+    padding: 10px 20px;
+    border-radius: 35px;
+    background-color: #eae880;
+    font-family: 'B612', sans-serif;
+    border: none;
 }
