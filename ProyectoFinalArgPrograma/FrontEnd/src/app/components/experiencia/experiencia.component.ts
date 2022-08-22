@@ -16,10 +16,10 @@ export class ExperienciaComponent implements OnInit {
   isLogged = false;
 
   ngOnInit(): void {
-
-    if(this.tokenService.getToken()){
+    this.cargarExperiencia();
+    if (this.tokenService.getToken()) {
       this.isLogged = true;
-    } else{
+    } else {
       this.isLogged = false;
     }
   }

@@ -5,13 +5,15 @@
             Nueva Experiencia
         </button>
     </div>
-    
+
     <div class="col-lg-1"></div>
     <div class="col-lg-11">
         <table class="table">
             <tbody>
                 <tr *ngFor="let Experiencia of expe">
-                    <td>{{Experiencia.nombreE}}</td>
+                    <td>
+                        <h3>{{Experiencia.nombreE}}</h3>
+                    </td>
                     <td>{{Experiencia.descripcionE}}</td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-light" routerLink="/editexp/{{Experiencia.id}}">
@@ -25,4 +27,5 @@
             </tbody>
         </table>
     </div>
+
 </div>
