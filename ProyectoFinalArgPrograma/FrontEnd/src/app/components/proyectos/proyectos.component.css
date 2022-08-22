@@ -1,21 +1,27 @@
 .row{
     padding: 20px;
+}
+div{
     background-color: #C02F2F;
 }
-.contenedor{
-    width: auto;
+h2, 
+h3, 
+h5{
+    color: black;
 }
-.parte1, 
-.parte2{
-    display: inline-block;
-    text-align: justify;
+h3{
+    font-weight: bold;
+}
+.botonAexp,
+.btn{
+    text-decoration: none;
+    color: #C02F2F;
+    padding: 10px 20px;
+    border-radius: 35px;
+    background-color: #eae880;
+    font-family: 'B612', sans-serif;
+    border: none;
 }
 .img-proyecto{
     box-shadow: 10px 10px 30px #000;
-}
-h2, 
-h3,
-p{
-    color: #000;
-    margin: 16px 8px 8px 8px;
 }

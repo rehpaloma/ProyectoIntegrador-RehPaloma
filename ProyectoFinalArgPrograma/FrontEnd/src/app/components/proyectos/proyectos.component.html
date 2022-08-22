@@ -1,21 +1,30 @@
 <div class="row" id="proyectos">
-    <h2>Proyectos</h2>
-    <div class="contenedor">
-        <div class="col-sm-12 col-md-7 col-lg-7 parte1">
-            <h3>Proyecto 1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias necessitatibus magnam enim, voluptate, molestias quasi perspiciatis a voluptatibus distinctio hic at voluptas vitae, optio voluptatem ratione eaque quibusdam tempore maxime.</p>
-        </div>
-        <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 parte2">
-            <img src="../../../assets/perfil.JPG" alt="" class="img-fluid img-proyecto">
-        </div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+        <h2>Proyectos</h2>
     </div>
-    <div class="contenedor">
-        <div class="col-sm-12 col-md-7 col-lg-7 parte1">
-            <h3>Proyecto 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias necessitatibus magnam enim, voluptate, molestias quasi perspiciatis a voluptatibus distinctio hic at voluptas vitae, optio voluptatem ratione eaque quibusdam tempore maxime.</p>
-        </div>
-        <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 parte2">
-            <img src="../../../assets/perfil.JPG" alt="" class="img-fluid img-proyecto">
-        </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <button type="button" class="botonAexp" routerLink="/nuevoproyecto" *ngIf="isLogged">
+            Agregar Proyecto
+        </button>
+    </div>
+</div>
+<div *ngFor="let Proyecto of proyecto" class="row">
+    <div class="col-sm-1 col-md-1 col-lg-1"></div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <h3>{{Proyecto.nombreP}}</h3>
+    </div>
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <h5>{{Proyecto.descripcionP}}</h5>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <img src={{Proyecto.imgP}} alt="" class="img-fluid img-proyecto">
+    </div>
+    <div *ngIf="isLogged" class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <button class="btn btn-light" routerLink="/editproyectos/{{Proyecto.id}}">
+            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+    </div>
+    <div *ngIf="isLogged" class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <button class="btn btn-danger" (click)="delete(Proyecto.id)">
+            <i class="bi bi-trash-fill"></i> BORRAR</button>
     </div>
 </div>
